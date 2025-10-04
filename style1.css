@@ -1,0 +1,39 @@
+button {
+    color: white;
+    padding: 10 px 20 px;
+    border: none;
+    border_radius: 5 px;
+    cursor: pointer;
+}
+.button_1 {
+    margin-right: 75 px;
+    color: #7B001C;
+    font-size: 50 px;
+}
+
+.buttons {
+    color: gray;
+    text-align: right;
+    margin-right: 50 px;
+}
+.btn {
+    color: gray;
+    text-decoration: none;
+    margin-right: 15 px
+}
+input[type="text"],
+textarea {
+    width: 400px;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+label {
+    display: inline-block;
+    font-weight: 600;
+    width: 80px;     
+    margin-bottom: 10px;
+}

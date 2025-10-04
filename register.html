@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="/static/style1.css">
+</head>
+<body style="background-color: lightyellow;">
+    <div class="center">
+        <h1>Register</h1>
+        <form method="POST">
+            <label>Username:</label>
+            <input type="email" name="email" required><br><br>
+            <input title="text" name="username" required><br><br>
+            <label>Password:</label>
+            <input title="Text" name="password" required><br>
+            <button type="submit">Register</button>
+            {% if message %}
+                <p class="message">{{ message }}</p>
+            {% endif %}
+        </form>
+    </div>
+</body>
+</html>
